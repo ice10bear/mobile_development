@@ -68,11 +68,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d01d304-b9d1-4dc6-a011-ff662fe89039" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../MireaProject/app/src/main/java/com/mirea/emelyanenkomo/mireaproject/WebViewFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MireaProject/app/src/main/res/drawable/ic_menu_browser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MireaProject/app/src/main/res/drawable/ic_menu_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MireaProject/app/src/main/res/drawable/ic_menu_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MireaProject/app/src/main/res/layout/fragment_web_view.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
