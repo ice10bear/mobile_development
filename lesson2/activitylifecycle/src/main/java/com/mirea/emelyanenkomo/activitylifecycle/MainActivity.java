@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.button);
 
         button.setOnClickListener(v -> {
-            // Можно добавить действия при нажатии
         });
     }
 
@@ -81,18 +80,3 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "onRestoreInstanceState: " + restoredText);
     }
 }
-
-/*
-6. Ответы на вопросы
-❓ 1. Будет ли вызван метод onCreate после нажатия на кнопку «Home» и возврата в приложение?
-❌ Нет. После нажатия Home вызываются onPause и onStop. При возврате в приложение снова вызываются onRestart, onStart, onResume. Метод onCreate не вызывается.
-
-❓ 2. Изменится ли значение поля EditText после нажатия на кнопку «Home» и возврата в приложение?
-✅ Да, если вы используете onSaveInstanceState и onRestoreInstanceState, как показано выше. Тогда состояние сохраняется автоматически.
-
-❓ 3. Изменится ли значение поля EditText после нажатия на кнопку «Back» и возврата в приложение?
-❌ Нет, потому что при нажатии Back Activity уничтожается (onDestroy), и при повторном запуске будет вызван onCreate. Если не сохранять данные в onSaveInstanceState, то данные будут потеряны.
-
-
-
- */
